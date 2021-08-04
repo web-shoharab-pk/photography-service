@@ -1,0 +1,50 @@
+.footerList {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.footerLink {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+ 
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+.subs{
+    /* border: 2px solid #fff; */
+    width: fit-content;
+    text-align: center;
+}
+
+.subsInput {
+  border: none;
+  color: white;
+  background-color: #07798E;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid white;
+}
+
+.subsInput:focus {
+  outline: none;
+}
+.subsInput::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.subsBtn {
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: rgb(255, 0, 0);
+
+}
