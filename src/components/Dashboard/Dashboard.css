@@ -1,0 +1,167 @@
+ 
+#divaa1{
+ z-index: 10;
+  border:5px solid orange; 
+  background:orange;
+  transition:.6s; 
+}
+#divaa1:hover{
+  height:250px;
+}
+#divaa1:hover > #divaaa1{
+  height:100%;
+  border:5px solid orange;
+}
+#divaaa1{
+ 
+  border:5px solid orange; 
+  background:orange;
+  transition:.6s;
+}
+ 
+#btna1{
+ 
+  background:transparent; 
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent; 
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna1{
+  top:90px;
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+#btna2{
+ 
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna2{
+
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+#btna3{
+
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna3{
+
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+  
+#divaa1{
+ 
+  width:80px;
+  height:80px;
+  border:5px solid orange;
+  border-radius:100px;
+  background:orange;
+  transition:.6s;
+}
+#divaa1:hover{
+  height:250px;
+}
+#divaa1:hover > #divaaa1{
+  height:180px;
+  border:5px solid orange;
+}
+#divaaa1{
+ 
+  width:40px;
+  height:80px;
+  border:5px solid orange;
+  border-radius:100px;
+  background:orange;
+  transition:.6s;
+}
+ 
+#btna1{
+ 
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna1{
+ 
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+#btna2{
+ 
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna2{
+ 
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+#btna3{
+ 
+  background:transparent;
+  width:75px;
+  color:transparent;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-family:Georgia, serif;
+  font-size:15px;
+  border:2.5px solid transparent;
+  border-radius:100px;
+  cursor:pointer;
+  transition:.6s;
+}
+#divaa1:hover > #btna3{
+ 
+  color:black;
+  background:dimgrey;
+  padding-bottom:5px;
+}
+ 

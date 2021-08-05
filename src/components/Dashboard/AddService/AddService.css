@@ -1,0 +1,49 @@
+ 
+.add-service{
+    background-color: #bbbabad7;
+    padding: 30px;
+    
+}
+ 
+ .upload-btn {
+    border: 2px solid #f8c59a;
+    color: #fd7e15;
+    max-width: 16rem;
+    margin: 10px 20px;
+  }
+  
+  .upload-btn:hover, .submitBtn:hover,
+ .upload-btn:active {
+    border: 2px solid #fd7709 !important;
+    color: white !important;
+    background: #fd7709 !important;
+    border-radius: 0.25rem;
+  }
+ 
+  
+  .serviceInput{
+    border: 2px solid #f8c59a !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 20px;
+    width: 100%;
+  }
+
+.serviceInput:focus{
+    outline: none;
+    border: 2px solid #fd7709 !important;
+}
+
+.submitBtn{
+    border: 2px solid #f8c59a;
+    color: #fd7e15;
+    max-width: 16rem;
+    width: 9rem;
+    padding: .8rem 0;
+    margin: 10px 20px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
