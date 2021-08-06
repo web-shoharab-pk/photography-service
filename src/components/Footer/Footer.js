@@ -13,10 +13,10 @@ const Footer = () => {
                             <NavLink className="navbar-brand" to="/">photography </NavLink>
                            
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/">home</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/myOrder">my order</Link>
                             </li>
                         </ul>
 
@@ -25,18 +25,18 @@ const Footer = () => {
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12 text-center">
                     <div>
-                        <ul>
+                    <ul>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Policy</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Contact</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Agrement</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Services</Link>
                             </li>
                         </ul>
                     </div>
@@ -45,16 +45,16 @@ const Footer = () => {
                     <div>
                         <ul>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Policy</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Contact</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Agrement</Link>
                             </li>
                             <li className="footerList">
-                                <Link className="footerLink" to="/#">Your link</Link>
+                                <Link className="footerLink" to="/#">Services</Link>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className="text-center d-flex align-items-center justify-content-center">
                         <div className="subs">
                             <input className="subsInput" type="email" placeholder="Subscribe now!" />
-                            <button className="subsBtn">SUBSCRIBE</button>
+                            <button style={{backgroundColor: '#ed5217'}} className="subsBtn">SUBSCRIBE</button>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
 .service-detail .card {
   border-radius: 20px;
   transition: 0.4s ease-out;
-  max-height: 25rem;
+  max-height: 100%;
   z-index: 1;
 }
 
@@ -18,9 +18,7 @@
   transition: all 0.3s;
 }
 
-.service-detail .card:hover img {
-  height: 80px;
-}
+ 
 
 .service-detail .card:hover::before {
   transform: scaleY(1);
@@ -69,19 +67,26 @@
   padding: 0.7rem 2rem;
   border-radius: 50px;
 }
+ 
 
-.service-detail .card .card-body > div {
-  display: none;
-  position: relative;
-  z-index: 3;
-  opacity: 0;
-  bottom: 16px;
-  color: white;
-  transition: opacity 0.5s ease-in-out, display 0.5s ease-in-out;
+.buttonGroup{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
-  .service-detail .card {
-    max-height: 24rem;
+  .service-detail  {
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1298px) {
+  .buttonGroup{
+    display: block;
+  
   }
 }

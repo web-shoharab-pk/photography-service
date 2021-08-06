@@ -90,7 +90,9 @@ const Dashboard = () => {
                         <div>
                             <h1 className="text-center">All Services</h1>
                             {
-                                loading ? <Spinner animation="border" />
+                                loading ? <div className="px-md-4 pt-md-1 bg-white" style={{ borderRadius: "15px" }}>
+                                    <Spinner animation="border" variant="danger" />
+                                </div>
                                     :
                                     <table className="table table-dark table-striped">
                                         <thead>
@@ -137,7 +139,9 @@ const Dashboard = () => {
                                     </tr>
                                 </thead>
                                 {
-                                    loading ? <Spinner animation="border" /> :
+                                    loading ? <div className="px-md-4 pt-md-1 bg-white" style={{ borderRadius: "15px" }}>
+                                        <Spinner animation="border" variant="danger" />
+                                    </div> :
                                         <tbody>
                                             {
                                                 orders?.map((service, index) => (

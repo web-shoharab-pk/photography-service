@@ -14,16 +14,16 @@ const SingleService = () => {
         <>
             <Navbar />
             <br /><br /><br /><br />
-            <div className="container">
+            <div className="container card shadow">
                 <div className="row">
                     <div className="col-lg-6 col-md-12 p-3">
                         <div>
-                            <img src={singleService?.image} alt="" />
+                            <img className="img-fluid" src={singleService?.image} alt="" />
 
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 p-3 ">
-                        <div>
+                        <div style={{color: '#ed5217'}}>
                             <h2>Package Name: {singleService?.title}</h2>
                             <div className="d-flex align-items-center justify-content-between">
                                 <h6>Price: BDT {singleService?.price}tk</h6>
@@ -35,10 +35,11 @@ const SingleService = () => {
                                 <p>{singleService?.description}</p>
                             </div>
                             <Button
+                            style={{width: '100%'}}
                                 as={Link}
                                 to={isAdmin ? "/dashboard" : "/bookingService"}
                                 onClick={() => setSingleService(singleService)}
-                                className="loginBtn mt-3">Book Now</Button>
+                                className="submitBtn mt-3">Book Now</Button>
                         </div>
 
                     </div>

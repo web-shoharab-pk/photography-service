@@ -27,7 +27,7 @@ const MyOrder = () => {
             <h1>My Order</h1><br /><br /><br />
             {loading ?
                 <div className="px-md-4 pt-md-1 bg-white" style={{ borderRadius: "15px" }}>
-                     <Spinner />
+                     <Spinner animation="border" variant="danger" />
                 </div>
                 : <Row className="mx-md-5">
                     {orders.map(order => {
