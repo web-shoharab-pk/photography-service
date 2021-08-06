@@ -20,7 +20,7 @@ const BookingService = () => {
                 toast.dismiss(loading);
                 console.log("res", res);
                 if (res.config) {
-                    swal("Successfully Uploaded", "Your new service has been successfully added.", "success");
+                    swal("Booking Successful", "new booking successfully booked!", "success");
                 }
             })
             .catch(error => {

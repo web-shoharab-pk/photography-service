@@ -9,7 +9,7 @@ const SingleService = () => {
     const { singleService, setSingleService } = useContext(UserContext);
 
     let isAdmin = localStorage.getItem('email') === 'test@test.com';
-    console.log(singleService);
+   
     return (
         <>
             <Navbar />
